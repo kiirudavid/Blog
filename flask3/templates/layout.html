@@ -23,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
   <style>
     body {
-      background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+      background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
       background-repeat: no-repeat;
       background-position: right top;
       background-attachment: fixed;
@@ -49,12 +49,12 @@
 </head>
 
 <body>
-  <h1 style="text-align :center;" class="j fixed-top">My blog</h1>
+  <h1 style="text-align :center;" class="j fixed-top">Personal blog</h1>
 
   <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark bg-steel ">
       <div class="container">
-        <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+        <a class="navbar-brand mr-4" href="/">BLOG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
           aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@
             {% if current_user.is_authenticated %}
             <a class="nav-item nav-link" href="{{ url_for('new_post') }}">New blog</a>
             <a class="nav-item nav-link" href="{{ url_for('account') }}">Account</a>
-            <a class="nav-item nav-link" href="{{ url_for('logout') }}">Logout</a>
+            <a class="nav-item nav-link" href="{{ url_for('logout') }}">Sign Out</a>
             {% else %}
             <a class="nav-item nav-link" href="{{ url_for('login') }}">Sign In</a>
             <a class="nav-item nav-link" href="{{ url_for('register') }}">Sign Up</a>
