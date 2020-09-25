@@ -9,7 +9,7 @@ body {
   }
   
   .bg-steel {
-    background-color:red;
+    background-color:rgba(255, 136, 0, 0.63);
   }
   
   .site-header .navbar-nav .nav-link {
