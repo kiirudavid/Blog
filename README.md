@@ -1,5 +1,5 @@
 # Pitch Application
- <!-- <img src="./p.png"> -->
+ <img src="./p.png">
 
 #### By:
 1. David Kiiru
